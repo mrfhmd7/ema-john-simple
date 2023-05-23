@@ -8,6 +8,7 @@ import Home from "./components/Layout/Home.jsx";
 import Shop from "./components/Shop/Shop.jsx";
 import Orders from "./components/Orders/Orders.jsx";
 import Inventory from "./components/Inventory/Inventory.jsx";
+import Login from "./components/Login/Login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,8 +25,12 @@ const router = createBrowserRouter([
       },
       {
         path: "inventory",
-        element: <Inventory></Inventory>
+        element: <Inventory></Inventory>,
       },
+      {
+        path: 'login',
+        element: <Login></Login>
+      }
     ],
   },
 ]);
