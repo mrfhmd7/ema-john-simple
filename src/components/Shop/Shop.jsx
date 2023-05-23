@@ -40,7 +40,7 @@ const Shop = () => {
           //step 5: set cart
           setCart(savedCart)
 
-}, [products]);
+     }, [products]);
 
      const handleAddToCart = (product) => {
           let newCart = [];
