@@ -19,3 +19,18 @@
 .cart-container h4{
      text-align: center;
 }
+
+.proceed-link{
+     text-decoration: none;
+}
+
+.btn-proceed{
+     display: flex;
+     justify-content: space-between;
+     width: 95%;
+     background: #FF9900;
+     border-radius: 4px;
+     color: white;
+     align-items: center;
+     margin-top: 20px;
+}
