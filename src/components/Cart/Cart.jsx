@@ -1,9 +1,11 @@
 import React from "react";
 import "./Cart.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
-const Cart = ({ cart }) => {
-  // const cart = props.cart;
-  // const {cart} =props;
+const Cart = ({ cart, handleClearCart }) => {
+  // const cart = props.cart; option-1
+  // const {cart} =props; option-2
   // console.log(cart);
 
   let totalPrice = 0;
@@ -33,6 +35,10 @@ const Cart = ({ cart }) => {
       <p>Total Shipping Charge: ${shippingTotal}</p>
       <p>Tax: ${tax.toFixed(2)}</p>
       <h5>Grand Total: ${grandTotal.toFixed(2)} </h5>
+      <button onClick={handleClearCart} className="btn-clear-cart">
+        <span>Clear Cart</span>
+        <FontAwesomeIcon icon={faTrashCan}/>
+      </button>
     </div>
   );
 };
