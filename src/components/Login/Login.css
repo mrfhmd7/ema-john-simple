@@ -1,10 +1,10 @@
 .form-container {
      width: 500px;
-     height: 600px;
+     /* height: 600px; */
      margin: 20px auto;
      border-radius: 8px;
      border: 1px solid #95a0a7;
-     padding-left: 40px;
+     /* padding-left: 60px; */
 }
 
 .form-title {
@@ -17,7 +17,7 @@
 }
 
 .form-control {
-     margin-bottom: 20px;
+     margin-bottom: 15px;
 }
 
 .form-control label {
@@ -28,16 +28,18 @@
      font-weight: 400;
      line-height: normal;
      letter-spacing: 0.026px;
+     margin-left: 35px;
 }
 
 .form-control input {
      width: 415px;
-     height: 55px;
+     height: 50px;
      margin-top: 10px;
      font-size: large;
      padding-left: 10px;
      border-radius: 5px;
      border: 1px solid #95A0A7;
+     margin-left: 35px;
 }
 
 .btn-submit {
@@ -48,7 +50,8 @@
      color: #0E161A;
      font-size: 21px;
      cursor: pointer;
-     margin-top: 35px;
+     margin-top: 20px;
+     margin-left: 35px;
 }
 
 .btn-submit:hover{
