@@ -31,11 +31,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'checkout',
-        element: <PrivateRoute><Checkout/></PrivateRoute>
+        element: <PrivateRoute> <Checkout/> </PrivateRoute>,
       },
       {
         path: "inventory",
-        element: <Inventory></Inventory>,
+        element: <PrivateRoute> <Inventory/> </PrivateRoute>,
       },
       {
         path: "login",
