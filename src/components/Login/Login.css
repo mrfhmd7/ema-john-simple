@@ -57,3 +57,8 @@
 .btn-submit:hover{
      background: rgba(255, 153, 0, 0.60);
 }
+
+.toggle-text{
+     margin-left: 35px;
+     cursor: pointer;
+}
